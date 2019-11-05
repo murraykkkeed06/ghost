@@ -14,8 +14,17 @@
 
 
 ```python
-# just type in 
+# set up 
 
 startghost
 
+# execute
+
+ghost
+
 ```
+
+
+
+
+
