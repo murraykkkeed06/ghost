@@ -7,5 +7,15 @@
 - [ ] play horable music sometimes
 - [ ] make your windows flow
 
-### still consider
+## still consider
 - [ ] show up fake virus error
+
+# usage
+
+
+```python
+# just type in 
+
+startghost
+
+```
