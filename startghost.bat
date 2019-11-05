@@ -13,7 +13,9 @@ copy ghost.bat c:\Python27\Scripts
 
 del "ghost.bat" /s /f /q
 
-cls
+pip install -r requirement.txt
+
+rem cls
 
 rem setx path "%PATH%;%~dp0" 
 
