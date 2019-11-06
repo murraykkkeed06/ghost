@@ -2,9 +2,9 @@
 
 @echo @echo off >> ghost.bat
 
-@echo python %~dp0ghost.py >> ghost.bat
+@echo start /B python %~dp0ghost.py >> ghost.bat
 
-@echo python %~dp0shaped_window_test.py >> ghost.bat
+@echo start /B python %~dp0shaped_window_test.py >> ghost.bat
 
 rem echo python ghost.py >> ghost.bat
 

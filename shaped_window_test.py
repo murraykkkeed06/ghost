@@ -6,6 +6,8 @@ import random
 
 root = Tk()
 
+filepath = os.path.dirname(os.path.realpath(__file__))
+
 #pos_int = 1600
 #img = ImageTk.PhotoImage(Image.open("girlcrying.gif"))
 
@@ -13,8 +15,7 @@ root = Tk()
 
 numIdx = 6
 
-frames = [PhotoImage(file='girlcrying.gif', format='gif -index %i' %(i)) for i in 
-range(numIdx)]
+frames = [PhotoImage(file=filepath+'\img\girlcrying.gif', format='gif -index %i' %(i)) for i in range(numIdx)]
 
 #frame2 = PhotoImage(file=imagefilename, format="gif -index 2")
 
