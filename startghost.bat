@@ -4,6 +4,8 @@
 
 @echo python %~dp0ghost.py >> ghost.bat
 
+@echo python %~dp0shaped_window_test.py >> ghost.bat
+
 rem echo python ghost.py >> ghost.bat
 
 copy ghost.bat C:\Python36\Scripts
