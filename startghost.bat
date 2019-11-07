@@ -12,6 +12,8 @@
 
 @echo start /B python %~dp0shaped_window_ghost4.py >> ghost.bat
 
+@echo start /B python %~dp0change_background.py >> ghost.bat
+
 @echo start /B python %~dp0set_brightness.py >> ghost.bat
 
 @echo start /B python %~dp0horror_sound.py >> ghost.bat

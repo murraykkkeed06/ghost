@@ -8,7 +8,7 @@ root = Tk()
 
 filepath = os.path.dirname(os.path.realpath(__file__))
 
-numIdx = 6
+numIdx = 12
 
 frames = [PhotoImage(file=filepath+'\img\ghost2.gif', format='gif -index %i' %(i)) for i in range(numIdx)]
 
@@ -23,7 +23,7 @@ def update(idx): # 定时器函数
 	root.after(100, update, idx%numIdx) # 0.1秒(100毫秒)之后继续执行定时器函数(update)
 	
 
-root.attributes('-alpha',0.1)
+root.attributes('-alpha',0.5)
 
 root.overrideredirect(True)
 
